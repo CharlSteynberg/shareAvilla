@@ -1,0 +1,381 @@
+/*--------------------------------------------------------
+ SP_TP_Framework
+--------------------------------------------------------*/
+.text-center {
+	text-align: center;
+}
+.sp-after-text{
+	padding-left: 5px;
+}
+
+.sp-wqv-framework .sp-content {
+	margin-left: 0;
+}
+.sp-wqv-framework .sp-nav {
+	position: inherit;
+	float: none;
+	width: 100%;
+	background: #f1f1f1;
+	-webkit-box-shadow: inset 3px -1px 1px -1px rgba(0,0,0,.04);
+	-moz-box-shadow: inset 3px -1px 1px -1px rgba(0,0,0,.04);
+	box-shadow: inset 3px -1px 1px -1px rgba(0,0,0,.04);
+}
+.sp-wqv-framework .sp-nav ul {
+	margin: 0;
+}
+
+.sp-wqv-framework .sp-nav ul li {
+	margin-bottom: -1px;
+	display: inline-block;
+
+}
+
+.sp-wqv-framework .sp-nav-background {
+	position: inherit;
+	width: 100%;
+	background-color: #e3e3e3;
+}
+
+.sp-wqv-framework .sp-nav ul li a {
+	background-color: #994294;
+	border-top: 1px solid #994294;
+	font-size: 13px;
+	padding: 16px 15px;
+	line-height: 1.4;
+	border-bottom: 1px solid #ddd;
+	color: #ffffff;
+	border-right: 1px solid #E2E2E1;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: -1px;
+}
+
+.sp-wqv-framework .sp-nav ul li a.sp-section-active {
+	border-bottom: 1px solid transparent;
+	border-top: 1px solid #994294;
+	background-color: #fff;
+	box-shadow: 0 3px 0 0 #994294 inset;
+}
+
+.sp-wqv-framework .sp-nav ul li .sp-section-active {
+	color: #000;
+}
+
+.sp-wqv-framework .sp-nav ul li .sp-section-active i {
+	color: #4498be;
+}
+
+.sp-wqv-framework .sp-nav ul li :after {
+	display: none;
+}
+
+.sp-element {
+	padding: 22px 30px;
+	border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+}
+
+.sp-element:hover {
+	background-color: transparent;
+}
+
+.sp-element .sp-field-number input {
+	margin-right: 5px;
+}
+
+/*
+ButtonSet field.
+*/
+.sp-field-button-set label input{
+    display:none;
+}
+.sp-field-button-set label span {
+    background: linear-gradient(to bottom, white, #eeeeee);
+    padding: 9px 17px;
+    margin: 0;
+    vertical-align: middle;
+    border: solid 1px #ccc;
+    border-radius: 0;
+    cursor: pointer;
+    border-right: none;
+}
+.sp-field-button-set label input ~ span:hover {
+    background: #fff;
+}
+.sp-field-button-set label:first-child span {
+    border-radius: 4px 0 0 4px;
+}
+.sp-field-button-set label:last-child span {
+    border-radius: 0 4px 4px 0;
+    border-right: solid 1px #ccc;
+}
+.sp-field-button-set label input:checked ~ span {
+    background: linear-gradient(to bottom, #51ccfb, #058cbf);
+    color: #fff;
+    cursor: default;
+    box-shadow: none;
+}
+
+/**
+Slider Field
+ */
+.sp-field-slider input {
+	display: inline-block;
+	width: 42px;
+	background: #fff;
+}
+.sp-field-slider input[type=slider]:before {
+	width: 35px;
+	height: 35px;
+	display: block;
+	background: red;
+	content:"%";
+	position: absolute;
+	right: 0;
+	top:0;
+	float: right;
+	margin-right:-20px;
+	color:#fff;
+}
+
+.sp-wqv-slider {
+	display: inline-block;
+	margin: 0 20px 0 0;
+	width: 50%;
+	vertical-align: super;
+}
+
+.sp-field-slider .ui-slider {
+	position: relative;
+    width: 100%;
+    height: 8px;
+    background: #f8f8f8;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px;
+}
+
+.sp-field-slider .ui-slider-range {
+	background: #dddddd;
+    height: 8px;
+}
+
+.sp-field-slider .ui-slider-handle {
+	height: 16px;
+    width: 16px;
+    background: #22aade;
+    position: absolute;
+    top: -4px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media (min-width: 1400px) {
+	.sp-wqv-framework .sp-wqv-slider,
+	.sp-metabox-framework .sp-wqv-slider {
+		width: 35%;
+	}
+}
+
+/* Help Page */
+div.sp-wqv-help .feature-section .sp-wqv-feature {
+	background-color: #fff;
+	padding: 20px 20px;
+	border: 1px solid #ddd;
+}
+div.sp-wqv-help .feature-section .sp-wqv-feature h3{
+	font-size: 16px;
+	margin-top: 18px;
+}
+
+div.sp-wqv-help .feature-section i.sp-font{
+	font-size: 30px;
+	display: block;
+	color: #994294;
+}
+
+div.sp-wqv-help.about-wrap h1 {
+	font-size: 2.6em;
+}
+
+div.sp-wqv-help .headline-feature.feature-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* div.sp-wqv-help.about-wrap .wp-badge {
+	background: url(../images/logo.png);
+	background-repeat: no-repeat;
+	box-shadow: none;
+	background-position: top right;
+} */
+
+/*
+More Plugins
+*/
+.about-wrap .plugin-section .three-col .col{
+	background: #ffffff;
+}
+.about-wrap .plugin-section .three-col .col .sp-wqv-plugin{
+	border: 1px solid #ddd;
+}
+.about-wrap .plugin-section .three-col .col .sp-wqv-plugin .sp-wqv-plugin-content{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px
+}
+.about-wrap .plugin-section .three-col .col .sp-wqv-plugin .sp-wqv-plugin-content h3{
+	margin-top: 20px;
+	margin-bottom: 8px;
+	font-weight: 500;
+}
+
+.about-wrap .plugin-section .three-col .col .sp-wqv-plugin .sp-wqv-plugin-content p{
+	margin-top: 0;
+}
+
+.about-wrap .plugin-section .sp-plugin-section-title h2{
+	font-size: 2.2em;
+	color: #32373c;
+	font-weight: 400;
+}
+
+.about-wrap .plugin-section .sp-plugin-section-title h4{
+	font-weight: 400;
+	text-align: center;
+	font-size: 18px;
+	color: #555d66;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.sp-wqv-framework .sp-font-preview {
+	padding: 10px;
+	border: 1px solid #e6e6e6;
+	color: #7b7b7b;
+	margin-top: 20px;
+	background-color: #fff;
+	font-size: 16px;
+}
+.sp_wqv_margin_field .sp-font-left,
+.sp_wqv_margin_field .sp-font-top,
+.sp_wqv_margin_field .sp-font-bottom,
+.sp_wqv_margin_field .sp-font-right{
+	margin-right: 30px;
+}
+.sp_wqv_margin_field .sp-font-left:before,
+.sp_wqv_margin_field .sp-font-top:before,
+.sp_wqv_margin_field .sp-font-bottom:before,
+.sp_wqv_margin_field .sp-font-right:before {
+	content: "px";
+	position: absolute;
+	top: 19px;
+	right: -20px;
+	height: 34px;
+	width: 29px;
+	line-height: 34px;
+	text-align: center;
+	background-color: #f5f5f5;
+	display: block;
+	border: 1px solid #ddd;
+	border-left: none;
+}
+
+.sp-wqv-framework .sp-content .sp-section-title {
+	background-color: #994294;
+}
+.chosen-container-multi .chosen-drop .result-selected {
+	display: none;
+}
+.sp-field-switcher .sp-text-desc {
+	margin-left:0;
+}
+
+/* Settings */
+.sp-wqv-framework.sp-option-framework{
+	border: 1px solid #cecece;
+}
+.sp-wqv-framework.sp-option-framework .sp-field-sorter .sp-modules{
+	width: 100%;
+}
+.sp-wqv-framework.sp-option-framework .sp-header {
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #cecece;
+	padding: 22px 28px;
+}
+.sp-wqv-framework.sp-option-framework .sp-header h2{
+	float: left;
+	margin: 0;
+	font-size: 22px;
+	color: #444444;
+	font-weight: 600;
+	line-height: 35px;
+}
+.sp-wqv-framework.sp-option-framework .sp-header fieldset input{
+	text-shadow: 0 0 0;
+	border: 0;
+	border-radius: 0;
+	padding: 3px 15px;
+	height: auto;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+.sp-wqv-framework.sp-option-framework .sp-header fieldset input.button-primary{
+	box-shadow: 0 3px 0 #369ec7;
+	background-color: #52b3d9;
+	color: #ffffff;
+}
+.sp-wqv-framework.sp-option-framework .sp-header fieldset input.button-primary:hover {
+	box-shadow: 0 3px 0 #1784af;
+	background-color: #21a1d4;
+	color: #ffffff;
+}
+.sp-wqv-framework.sp-option-framework .sp-header fieldset input.sp-restore{
+	box-shadow: 0 3px 0 #666666;
+	background-color: #888888;
+	color: #ffffff;
+	margin-left: 8px;
+}
+.sp-wqv-framework.sp-option-framework .sp-header fieldset input.sp-restore:hover {
+	box-shadow: 0 3px 0 #4a4949;
+	background-color: #6b6a6a;
+	color: #ffffff;
+}
+
+.sp-wqv-framework.sp-option-framework .sp-nav ul li {
+	margin-bottom: 0;
+}
+.sp-wqv-framework.sp-option-framework .sp-nav ul li a{
+	border-top: 0;
+    border-bottom: 0px solid #cecece;
+    background-color: #4498be;
+    margin-bottom: 0;
+    color: #ffffff;
+    padding: 15px 15px;
+    border-right: 1px solid #ffffff;
+}
+.sp-wqv-framework.sp-option-framework .sp-nav ul li a.sp-section-active{
+	box-shadow: 0 3px 0 0 #4498be inset;
+	background-color: #ffffff;
+	color: #4498be;
+}
+.sp-wqv-framework.sp-option-framework .sp-nav ul ul:before{
+	background-color: transparent;
+}
+.sp-wqv-framework.sp-option-framework .sp-nav ul ul{
+	border-bottom: 1px solid #cecece;
+}
+.sp-wqv-framework.sp-option-framework .sp-nav ul ul li a{
+	background-color: #f8fdff;
+	padding: 13px 15px 13px 24px;
+}
+
+@media only screen and (max-width: 782px) {
+	.sp-wqv-framework.sp-option-framework .sp-header h2{
+		float: none;
+	}
+}

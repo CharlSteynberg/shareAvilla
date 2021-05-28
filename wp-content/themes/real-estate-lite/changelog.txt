@@ -1,0 +1,16 @@
+29/01/2016 - customizer.php error fixed
+11/02/2016 - Documentation Added, header image added
+11/02/2016 - Added IXD Support
+11/02/2016 - Added featured image to header
+03/04/2016 - Fixed social media icons
+30/03/2016 - removed srcset causing conflict with slider
+21/04/2016 - Added widgetized page template
+6/30/2016  - Fixed Google maps issue on plugin
+8/22/2016  - Full page template header image
+8/23/2016  - Bundled realia plugin, removed customization options, one click install
+11/2/2016  - Updated import data
+12/9/2016  - Added linkedin
+12/20/2016 - Added tax-locations template
+
+02/16/2017 - MAJOR Overhaul, everything changes from here :)
+3/28/2017  - Fixed header image buttons url

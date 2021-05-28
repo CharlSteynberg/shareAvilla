@@ -1,0 +1,202 @@
+.wolverine-ourteam.style1,.wolverine-ourteam.style2 {
+	text-align: center;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+	.owl-wrapper .owl-item {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.ourteam-item {
+		position: relative;
+	}
+	.ourteam-avatar {
+		position: relative;
+		&:before
+		{
+			content: '';
+			display: block;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			position: absolute;
+			.rgba-bg-color (#F3F3F3, 0.9);
+			-webkit-transition: all .8s ease 0s;
+			-moz-transition: all .8s ease 0s;
+			-o-transition: all .8s ease 0s;
+			transition: all .8s ease 0s;
+			opacity: 0;
+		}
+	}
+	.ourteam-social {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		height: 30px;
+		padding: 0;
+		opacity: 0;
+		li {
+			display: inline-block;
+			a {
+				-webkit-transition: -webkit-transform 0.35s;
+				transition: transform 0.35s;
+				-webkit-transform: translate3d(0, 20px, 0);
+				transform: translate3d(0, 20px, 0);
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				color: @bold_color;
+				.rounded(50%);
+				text-align: center;
+				i {
+					line-height: 30px;
+					font-size: 13px;
+				}
+				&:hover {
+					background-color: @primary_color;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+	.ourteam-item {
+		&:hover {
+			.ourteam-social {
+				a {
+					-webkit-transform: translate3d(0, 0, 0);
+					transform: translate3d(0, 0, 0);
+				}
+				opacity: 1;
+			}
+			.ourteam-avatar:before {
+				opacity: 1;
+			}
+		}
+	}
+	.ourteam-name {
+		font-family: @secondary_font;
+		font-size: 14px;
+		color: @bold_color;
+		line-height: 1.6;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin: 0;
+		display: block;
+		padding-top: 28px;
+	}
+	.ourteam-job {
+		font-size: 12px;
+		font-style: italic;
+		font-family: @other_font;
+		color: @primary_color;
+		line-height: 2.2;
+		font-weight: 400;
+		padding-top: 2px;
+		margin: 0;
+		display: block;
+	}
+}
+
+.wolverine-ourteam.style2 {
+	.ourteam-social a {
+		background-color: #ffffff;
+		margin: 0 9px;
+	}
+}
+.wolverine-ourteam.style3 {
+	text-align: center;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+	.owl-wrapper .owl-item {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.ourteam-item {
+		position: relative;
+		&:hover
+		{
+			.ourteam-info
+			{
+				opacity: 1;
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+			}
+		}
+		.ourteam-info
+		{
+			opacity: 0;
+			-webkit-transition: -webkit-transform 0.35s;
+			transition: transform 0.35s;
+			-webkit-transform: translate3d(0, 20px, 0);
+			transform: translate3d(0, 20px, 0);
+			height: 210px;
+			position: absolute;
+			left: 30px;
+			top: 0;
+			bottom: 0;
+			right: 30px;
+			margin: auto;
+			background-color: rgba(50,50,50,0.9);
+			ul {
+				padding: 0;
+				line-height: 0;
+				li {
+					display: inline-block;
+					padding: 0 13px;
+					a {
+						i {
+							color: #999999;
+							font-size: 13px;
+						}
+						&:hover i{
+							color: #ffffff;
+						}
+					}
+				}
+			}
+			.ourteam-name
+			{
+				font-family: @secondary_font;
+				font-size: 14px;
+				color: #ffffff;
+				line-height: 1.6;
+				letter-spacing: 0.05em;
+				font-weight: 400;
+				text-transform: uppercase;
+				display: block;
+				padding-top: 41px;
+			}
+			.ourteam-job {
+				font-size: 13px;
+				font-style: italic;
+				font-family: @other_font;
+				color: #DDDDDD;
+				line-height: 2.2;
+				letter-spacing: 0.02em;
+				font-weight: 400;
+				margin: 0;
+				display: block;
+			}
+			i{
+				font-size: 60px;
+				color: @primary_color;
+			}
+		}
+	}
+}
+@media (max-width: 340px) {
+	.wolverine-ourteam.style3 {
+		.ourteam-item .ourteam-info
+		{
+			left: 0;
+			right: 0;
+		}
+	}
+}

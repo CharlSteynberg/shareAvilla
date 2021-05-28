@@ -1,0 +1,30 @@
+#customize-controls .control-section-example-1 .accordion-section-title:hover,
+#customize-controls .control-section-example-1 .accordion-section-title:focus {
+	background-color: #eee;
+}
+
+.control-section-example-1 .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+	.rtl .control-section-example-1 .accordion-section-title .button {
+		margin-left:  0;
+		margin-right: 8px;
+	}
+#customize-theme-controls .upsellsection {
+	border:none;
+}
+#customize-theme-controls .upsellsection  .accordion-section-title {
+
+    padding: 2em 1em;
+    border-top: none;
+}
+
+ #customize-theme-controls .upsellsection .accordion-section-title a.button {
+    background: red;
+    border-color: red;
+    color: #fff;
+}
+}

@@ -1,0 +1,344 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Quick View\n"
+"POT-Creation-Date: 2019-04-09 17:40+0600\n"
+"PO-Revision-Date: 2019-04-09 17:40+0600\n"
+"Last-Translator: \n"
+"Language-Team: ShapedPlugin <support@shapedplugin.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/views/framework/classes/framework.class.php:167
+msgid "Default options restored."
+msgstr ""
+
+#: ../admin/views/framework/classes/framework.class.php:186
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: ../admin/views/framework/classes/framework.class.php:324
+msgid "Settings saved."
+msgstr ""
+
+#: ../admin/views/framework/classes/framework.class.php:326
+msgid "Save Changes"
+msgstr ""
+
+#: ../admin/views/framework/classes/framework.class.php:326
+msgid "Saving..."
+msgstr ""
+
+#: ../admin/views/framework/classes/framework.class.php:327
+msgid "Restore"
+msgstr ""
+
+#: ../admin/views/framework/classes/framework.class.php:330
+msgid "Reset All Options"
+msgstr ""
+
+#: ../admin/views/framework/classes/options.class.php:125
+msgid "CONFIG"
+msgstr ""
+
+#: ../admin/views/framework/classes/options.class.php:131
+#: ../admin/views/framework/classes/options.class.php:151
+msgid "USAGE"
+msgstr ""
+
+#: ../admin/views/framework/classes/options.class.php:137
+msgid "VALUE"
+msgstr ""
+
+#: ../admin/views/framework/classes/options.class.php:155
+msgid "ID"
+msgstr ""
+
+#: ../admin/views/framework/classes/options.class.php:227
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:10
+msgid "Woo Quick View"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:319
+msgid "WooCommerce Quick View"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:332
+msgid "Button Settings"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:340
+msgid "Quick View Button Position"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:341
+msgid "Select quick view button position."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:344
+msgid "Before Add to cart button"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:345
+msgid "After add to cart button"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:346
+#: ../admin/views/framework/fields/border/border.php:64
+msgid "None"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:352
+msgid "Button Color"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:353
+msgid "Set quick view button color."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:372
+msgid "Button Padding"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:373
+msgid "Set quick view button padding."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:388
+msgid "Button Border"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:389
+msgid "Set quick view button border."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:401
+msgid "Button Text"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:402
+msgid "Type quick view button custom text."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:414
+msgid "Popup Settings"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:423
+msgid "Popup Overlay Background"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:424
+msgid "Set popup overlay background color."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:430
+msgid "Popup Effect"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:431
+msgid "Select popup effect."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:446
+msgid "Popup Close Button"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:447
+msgid "Show/hide popup close button."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:453
+msgid "Close Button Icon Color"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:454
+msgid "Set popup close button icon color."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:456
+#: ../admin/views/framework/config/framework.config.php:502
+msgid "Color"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:458
+#: ../admin/views/framework/config/framework.config.php:504
+msgid "Hover Color"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:468
+msgid "Close Button Icon Size"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:469
+msgid "Set popup close button icon size."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:480
+msgid "Popup Product Content"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:485
+msgid "Rating Color"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:486
+msgid "Set product star rating color."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:499
+msgid "Add to Cart Button Background"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:500
+msgid "Set product add to cart button background color."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:506
+msgid "Background"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:508
+msgid "Hover Background"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:519
+msgid "Add to Cart Button Padding"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:520
+msgid "Set product add to cart button padding."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:535
+msgid "Popup Background"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:536
+msgid "Set popup box area background."
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:548
+#: ../admin/views/framework/config/framework.config.php:554
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/views/framework/config/framework.config.php:555
+msgid "Type your custom css."
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:46
+msgid "Border Width"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:61
+msgid "Border Style"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:65
+msgid "Solid"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:66
+msgid "Dotted"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:67
+msgid "Dashed"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:68
+msgid "Double"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:69
+msgid "Groove"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:70
+msgid "Ridge"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:71
+msgid "Inset"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:72
+msgid "Outset"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:86
+msgid "Border Color"
+msgstr ""
+
+#: ../admin/views/framework/fields/border/border.php:101
+msgid "Border Hover Color"
+msgstr ""
+
+#: ../admin/views/framework/fields/margin/margin.php:44
+msgid "Left"
+msgstr ""
+
+#: ../admin/views/framework/fields/margin/margin.php:57
+msgid "Top"
+msgstr ""
+
+#: ../admin/views/framework/fields/margin/margin.php:70
+msgid "Bottom"
+msgstr ""
+
+#: ../admin/views/framework/fields/margin/margin.php:83
+msgid "Right"
+msgstr ""
+
+#: ../admin/views/framework/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: ../admin/views/framework/fields/switcher/switcher.php:20
+msgid "off"
+msgstr ""
+
+#: ../admin/views/framework/functions/helpers.php:48
+msgid "This field class is not available!"
+msgstr ""
+
+#: ../admin/views/framework/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: ../admin/views/framework/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: ../admin/views/framework/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: ../class/popup.php:91
+msgid "Placeholder"
+msgstr ""
+
+#: ../includes/functions.php:29
+#, php-format
+msgid ""
+"If you like <strong>WooCommerce Quick View</strong> please leave us a <a "
+"href=\"%s\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> "
+"rating. Your Review is very important to us as it helps us to grow more. "
+msgstr ""
+
+#: ../woo-quick-view.php:182
+msgid "Settings"
+msgstr ""

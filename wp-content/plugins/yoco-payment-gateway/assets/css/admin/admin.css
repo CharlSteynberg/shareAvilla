@@ -1,0 +1,34 @@
+#span_test {
+    margin-left: 24px;
+    color: red;
+    border: 4px solid;
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: #02a7e3;
+    margin: auto;
+    font-size: 14px;
+    display: table;
+}
+
+#div_health {
+    margin-bottom: 20px !important
+}
+#div_health ul {
+    list-style-type: square;
+    background: #00a0d2;
+    padding: 25px;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#yoco_pg_admin_notice {
+    background: red !important;
+    padding: 20px !important;
+    color: white !important;
+}
+
+.key_error {
+    color: red;
+}

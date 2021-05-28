@@ -1,0 +1,73 @@
+.wolverine-feature.style1
+{
+  .wolverine-feature-thumb
+  {
+    position: relative;
+    span{
+      position: absolute;
+      display: block;
+      right: 20px;
+      top: 20px;
+      i{
+        color: #FFFFFF;
+        font-size: 30px;
+      }
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    &:hover{
+      i{
+        color: @primary_color;
+      }
+    }
+  }
+  .wolverine-feature-content
+  {
+    h5
+    {
+      margin: 28px 0 0;
+      font-family: @secondary_font;
+      font-size: 12px;
+      font-weight: 600;
+      a{
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        color: @primary_color;
+        text-transform: uppercase;
+        &:hover{
+          color: @heading_color;
+          text-decoration: none;
+        }
+      }
+    }
+    h4
+    {
+      margin: 18px 0 0;
+      font-family: @secondary_font;
+      font-size: 16px;
+      font-weight: 400;
+      a{
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        color: @heading_color;
+        text-transform: uppercase;
+        &:hover{
+          color: @primary_color;
+          text-decoration: none;
+        }
+      }
+    }
+    p{
+      font-family: @primary_font;
+      font-size: 13px;
+      line-height: 2.2;
+      font-weight: 400;
+      color: #535353;
+      margin: 23px 0 0;
+    }
+  }
+}

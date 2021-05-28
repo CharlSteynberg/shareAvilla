@@ -1,0 +1,367 @@
+.wolverine-post {
+	.wolverine-post-image {
+		img {
+			width: 100%;
+			height: auto;
+			-webkit-transition:all .8s ease 0s;
+			-moz-transition:all .8s ease 0s;
+			-o-transition:all .8s ease 0s;
+			transition:all .8s ease 0s;
+		}
+		&:hover img {
+			.scale(1.1);
+		}
+		.owl-theme {
+			overflow: hidden;
+		}
+		.owl-theme .owl-controls {
+			margin: 0;
+		}
+		.owl-theme .owl-controls .owl-buttons div {
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			margin: auto;
+			display: block;
+			top: 0;
+			bottom: 0;
+			cursor: pointer;
+			text-align: center;
+			background-color: rgba(0, 0, 0, 0.7);
+			z-index: 200;
+			padding: 0;
+			opacity: 0;
+			color: #fff;
+			font-size: 18px;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			-ms-transition: all 0.3s;
+			-o-transition: all 0.3s;
+			transition: all 0.3s;
+		}
+		.owl-next {
+			right: 0;
+			-webkit-transform: translateX(50px);
+			-moz-transform: translateX(50px);
+			-ms-transform: translateX(50px);
+			-o-transform: translateX(50px);
+			transform: translateX(50px);
+		}
+		.owl-prev {
+			-webkit-transform: translateX(-50px);
+			-moz-transform: translateX(-50px);
+			-ms-transform: translateX(-50px);
+			-o-transform: translateX(-50px);
+			transform: translateX(-50px);
+		}
+		&:hover {
+			.owl-theme .owl-controls .owl-buttons div {
+				opacity: 1;
+				-webkit-transform: translateX(0px);
+				-moz-transform: translateX(0px);
+				-ms-transform: translateX(0px);
+				-o-transform: translateX(0px);
+				transform: translateX(0px);
+			}
+		}
+	}
+}
+
+.wolverine-post.style1 {
+
+	.owl-wrapper .owl-item {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.wolverine-post-item .owl-wrapper .owl-item {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.wolverine-post-content {
+		text-align: center;
+	}
+	h3 {
+		font-family: @secondary_font;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.2;
+		a {
+			font-size: inherit;
+			font-weight: inherit;
+			line-height: inherit;
+			color: #555555;
+			display: block;
+			padding-bottom: 10px;
+			text-transform: uppercase;
+			padding-top: 16px;
+			&:hover {
+				color: @primary_color;
+				text-decoration: none;
+			}
+		}
+	}
+	.post-entry-meta {
+		font-family: @secondary_font;
+		font-size: 10px;
+		font-weight: 400;
+		color: #999999;
+		line-height: 1.2;
+		padding-top: 33px;
+		a, span {
+			font-family: inherit;
+			font-size: inherit;
+			font-weight: inherit;
+			line-height: inherit;
+			color: inherit;
+			text-transform: uppercase;
+		}
+		a {
+			color: @primary_color;
+			&:hover {
+				color: #777777;
+			}
+		}
+	}
+}
+
+.wolverine-post.style2 {
+	.wolverine-post-item {
+		width: 50%;
+		-webkit-transition:all .4s ease 0s;
+		-moz-transition:all .4s ease 0s;
+		-o-transition:all .4s ease 0s;
+		transition:all .4s ease 0s;
+		background-color: #ffffff;
+		&:hover {
+			background-color: #323232;
+			.entry-thumbnail:hover {
+				a.entry-thumbnail_overlay:before {
+					display: none;
+				}
+			}
+			.wolverine-post-content {
+				border-color: #323232;
+				a {
+					color: #ffffff;
+				}
+				p {
+					color: #999999;
+				}
+			}
+		}
+	}
+	.wolverine-post-image {
+		width: 50%;
+		float: left;
+	}
+	.wolverine-post-content {
+		width: 50%;
+		float: left;
+		text-align: center;
+		font-size: 0;
+		border: 1px solid #EEEEEE;
+		-webkit-transition:all .4s ease 0s;
+		-moz-transition:all .4s ease 0s;
+		-o-transition:all .4s ease 0s;
+		transition:all .4s ease 0s;
+		&:before {
+			content: "";
+			padding-top: 100%;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.content-middle-inner {
+			display: inline-block;
+			font-size: 13px;
+			padding: 15px;
+		}
+		span {
+			display: block;
+			font-family: @secondary_font;
+			font-size: 11px;
+			color: #999999;
+			line-height: 1.2;
+		}
+		h3 {
+			font-family: @secondary_font;
+			font-size: 16px;
+			line-height: 1.6;
+			margin: 0;
+			padding: 0;
+			a {
+				font-family: inherit;
+				font-size: inherit;
+				color: @bold_color;
+				line-height: inherit;
+				text-transform: uppercase;
+				display: block;
+				padding-top: 15px;
+				&:after {
+					content: "\e2d1";
+					font-family: "wolverine";
+					font-size: 50px;
+					color: @primary_color;
+					display: block;
+					line-height: 1;
+					padding-top: 10px;
+				}
+			}
+		}
+
+		p {
+			font-size: 13px;
+			color: #545454;
+			line-height: 2.2;
+			max-width: 355px;
+			max-height: 9em;
+			margin-left: auto;
+			margin-right: auto;
+			overflow: hidden;
+			margin-top: 9px;
+		}
+	}
+}
+.wolverine-post.style3 {
+	.wolverine-post-item {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+		&:hover {
+			img{
+				.scale(1);
+			}
+			.entry-thumbnail:hover {
+				a.entry-thumbnail_overlay:before {
+					display: none;
+				}
+			}
+			.wolverine-post-content {
+				opacity: 1;
+			}
+		}
+		.wolverine-post-content {
+			position: absolute;
+			left: 60px;
+			top: 30px;
+			right: 60px;
+			bottom: 30px;
+			margin:auto;
+			background-color: rgba(255,255,255,0.9);
+			text-align: center;
+			opacity: 0;
+			-webkit-transition: opacity .8s ease 0s;
+			-moz-transition: opacity .8s ease 0s;
+			-o-transition: opacity .8s ease 0s;
+			transition: opacity .8s ease 0s;
+			padding: 15px;
+			span{
+				font-family: @secondary_font;
+				font-size: 11px;
+				color: #777777;
+				line-height: 1.2;
+				letter-spacing: 0.05em;
+				display: block;
+			}
+			h3{
+				font-family: @other_font;
+				font-size: 24px;
+				line-height: 1.6;
+				color: #333333;
+				max-width: 310px;
+				margin-left: auto;
+				margin-right: auto;
+				padding-top: 9px;
+				a{
+					text-transform: uppercase;
+					font-family: inherit;
+					font-size: inherit;
+					line-height: inherit;
+					color: inherit;
+					letter-spacing: 0.05em;
+				}
+			}
+			.wolverine-button
+			{
+				margin-top: 11px;
+			}
+			.wolverine-post-content-inner
+			{
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}
+
+@media (max-width: 1279px) {
+	.wolverine-post.style2 .wolverine-post-item {
+		width: 100% !important;
+	}
+}
+@media (max-width: 1600px) {
+	.wolverine-post.style3 {
+		.wolverine-post-item .wolverine-post-content{
+			top: 10px;
+			left: 20px;
+			right: 20px;
+			bottom: 10px;
+			h3{
+				font-size: 20px;
+				line-height: 1.2;
+			}
+			.wolverine-button.button-2x
+			{
+				min-width: 120px;
+				padding: 9px 15px;
+			}
+		}
+	}
+}
+@media (max-width: 1280px) {
+	.wolverine-post.style3 {
+		.wolverine-post-item .wolverine-post-content{
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			h3{
+				font-size: 18px;
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.wolverine-post.style2 {
+		.wolverine-post-image, .wolverine-post-content {
+			width: 100% !important;
+		}
+	}
+}
+
+.embed-responsive.embed-responsive-16by9 {
+	padding-bottom: 66.25%;
+}
+
+.embed-responsive.embed-responsive-blog-grid {
+	padding-bottom: 66.67%;
+}
+
+.embed-responsive.embed-responsive-blog-classic {
+	padding-bottom: 66.67%;
+}
+
+.embed-responsive.embed-responsive-blog-related {
+	padding-bottom: 72.97%;
+}
+
+.embed-responsive.embed-responsive-blog-thumbnail {
+	padding-bottom: 100%;
+}
+.embed-responsive.embed-responsive-blog-garden {
+	padding-bottom: 64.52%;
+}

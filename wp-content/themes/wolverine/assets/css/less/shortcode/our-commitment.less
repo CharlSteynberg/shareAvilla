@@ -1,0 +1,144 @@
+.wolverine-our-commitment
+{
+	position: relative;
+	.our-commitment-avatar
+	{
+		width: 350px;
+		float: left;
+	}
+	.our-commitment-info
+	{
+		padding-left: 45px;
+		padding-top: 202px;
+		overflow: hidden;
+		h4,p,span
+		{
+			color: #ffffff;
+		}
+		h3{
+			color: @primary_color;
+			background-color: #ffffff;
+			font-size: 16px;
+			line-height: 1.6;
+			letter-spacing: 0.05em;
+			display: inline-block;
+			text-transform: uppercase;
+			padding: 0 20px;
+		}
+		h4{
+			font-size: 14px;
+			line-height: 1.6;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			margin-bottom: 2px;
+			padding-top: 3px;
+			&:before
+			{
+				content: '';
+				width: 140px;
+				border-top: 1px solid #ffffff;
+				display: block;
+				padding-bottom: 17px;
+			}
+		}
+		p{
+			font-family: @other_font;
+			font-style: italic;
+			font-size: 16px;
+		}
+		span{
+			font-size: 13px;
+			letter-spacing: 0.02em;
+			line-height: 2.2;
+		}
+	}
+	.owl-controls
+	{
+		position: absolute;
+		left: 390px;
+		bottom: 53px;
+		margin: 0;
+	}
+	.owl-theme .owl-controls .owl-page span {
+		display: block;
+		width: 8px;
+		height: 8px;
+		margin: 5px;
+		filter: Alpha(Opacity=50);
+		opacity: 0.4;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		background: #ffffff;
+	}
+	.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span
+	{
+		opacity: 1;
+	}
+}
+.wolverine-our-commitment.dark
+{
+	.our-commitment-info
+	{
+		padding-top: 127px;
+		h3{
+			padding: 0;
+		}
+		h4{
+			color: @bold_color;
+			&:before
+			{
+				border-color: @bold_color;
+			}
+		}
+		p,span{
+			color: @text_color;
+		}
+	}
+	.owl-theme .owl-controls .owl-page span {
+		background: #BABABA;
+	}
+	.owl-controls
+	{
+		bottom: 116px;
+	}
+}
+@media (max-width: 1279px) {
+	.wolverine-our-commitment
+	{
+		.owl-controls
+		{
+			bottom: 20px;
+		}
+	}
+}
+@media (max-width: 991px) {
+	.wolverine-our-commitment
+	{
+		.our-commitment-avatar
+		{
+			display: none;
+		}
+		.our-commitment-info
+		{
+			padding-left: 0;
+			overflow: visible;
+
+		}
+		&.light .our-commitment-info
+		{
+			padding-top: 100px;
+		}
+		&.dark .our-commitment-info
+		{
+			padding-top: 60px;
+		}
+		.owl-controls
+		{
+			left: auto;
+			bottom: 0;
+			right: 15px;
+		}
+		padding-bottom: 50px;
+	}
+}

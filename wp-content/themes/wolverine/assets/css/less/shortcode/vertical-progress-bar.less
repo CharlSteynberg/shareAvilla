@@ -1,0 +1,132 @@
+.wolverine-vertical-progress-bar
+{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.wolverine-vertical-progress-bar .vc_single_bar {
+  background: #EDEDED;
+  background-clip: content-box;
+  position: relative;
+  margin-bottom: 70px;
+  height: 250px;
+  float: left;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.wolverine-vertical-progress-bar.style2 .vc_single_bar {
+  background-color: #ffffff;
+}
+.wolverine-vertical-progress-bar .vc_single_bar .vc_label {
+  display: block;
+}
+.vc_label_wapper
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -67px;
+}
+.wolverine-vertical-progress-bar .vc_single_bar.bar_blue .vc_bar {
+  background-color: #0074CC;
+}
+.wolverine-vertical-progress-bar .vc_single_bar.bar_turquoise .vc_bar {
+  background-color: #49afcd;
+}
+.wolverine-vertical-progress-bar .vc_single_bar.bar_green .vc_bar {
+  background-color: #5bb75b;
+}
+.wolverine-vertical-progress-bar .vc_single_bar.bar_orange .vc_bar {
+  background-color: #faa732;
+}
+.wolverine-vertical-progress-bar .vc_single_bar.bar_red .vc_bar {
+  background-color: #da4f49;
+}
+.wolverine-vertical-progress-bar .vc_single_bar.bar_black .vc_bar {
+  background-color: #414141;
+}
+.wolverine-vertical-progress-bar .vc_single_bar .vc_label_units {
+  color: @primary_color;
+}
+.wolverine-vertical-progress-bar .vc_single_bar .vc_label
+{
+  padding-bottom: 5px;
+}
+.wolverine-vertical-progress-bar .vc_single_bar .vc_label, .wolverine-vertical-progress-bar .vc_label_units{
+  color: #444444;
+  font-family: @secondary_font;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.wolverine-vertical-progress-bar .vc_single_bar .vc_bar {
+  display: block;
+  position: absolute;
+  height: 0%;
+  background-color: #e0e0e0;
+  background-clip: content-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: height 1s linear;
+  -moz-transition: height 1s linear;
+  -webkit-transition: height 1s linear;
+  -o-transition: height 1s linear;
+}
+
+.wolverine-vertical-progress-bar .vc_single_bar .vc_bar.striped {
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+  -moz-background-size: 40px 40px;
+  -o-background-size: 40px 40px;
+  background-size: 40px 40px;
+}
+.wolverine-vertical-progress-bar .vc_single_bar .vc_bar.animated {
+  -webkit-animation: v-progress-bar-stripes 2s linear infinite;
+  -moz-animation: v-progress-bar-stripes 2s linear infinite;
+  -ms-animation: v-progress-bar-stripes 2s linear infinite;
+  -o-animation: v-progress-bar-stripes 2s linear infinite;
+  animation: v-progress-bar-stripes 2s linear infinite;
+}
+@-webkit-keyframes v-progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-moz-keyframes v-progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@media (max-width: 991px) {
+	.wolverine-vertical-progress-bar .vc_single_bar {
+		width: 25% !important;
+	}
+}
+@media (max-width: 767px) {
+	.wolverine-vertical-progress-bar .vc_single_bar {
+		width: 50% !important;
+	}
+}
+@media (max-width: 480px) {
+	.wolverine-vertical-progress-bar .vc_single_bar {
+		width: 100% !important;
+	}
+}

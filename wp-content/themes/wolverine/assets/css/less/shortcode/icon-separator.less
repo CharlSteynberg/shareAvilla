@@ -1,0 +1,31 @@
+.wolverine-icon-separator
+{
+  text-align: center;
+  overflow: hidden;
+  span{
+    display: inline-block;
+    position: relative;
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 62%;
+      right: 98px;
+      border-bottom: 1px solid #DCDCDC;
+      width: 270px;
+    }
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 62%;
+      left: 98px;
+      border-bottom: 1px solid #DCDCDC;
+      width: 270px;
+    }
+  }
+  i{
+    font-size: 66px;
+    color: @primary_color;
+  }
+}

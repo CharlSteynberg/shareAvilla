@@ -1,0 +1,190 @@
+.wolverine-call-action
+{
+  .content-middle
+  {
+    height: 150px;
+  }
+  h6{
+    padding: 0 15px 0 57px;
+    margin: 0;
+    font-family: @other_font;
+    font-size: 21px;
+    font-style: italic;
+    color: #545454;
+  }
+  .wolverine-call-action-right
+  {
+    text-align: right;
+    a{
+      margin-right: 64px;
+    }
+  }
+}
+.wolverine-call-action.style1
+{
+  background-color: #F3F3F3;
+  a{
+    background-color: @primary_color;
+    color: #ffffff;
+    &:hover{
+      background-color: #ffffff;
+      color: @bold_color;
+    }
+  }
+}
+.wolverine-call-action.style2
+{
+  background-color: transparent;
+  border: 1px solid @border_color;
+  a{
+    background-color: @primary_color;
+    color: #ffffff;
+    &:hover{
+      background-color: #ffffff;
+      color: @bold_color;
+    }
+  }
+}
+.wolverine-call-action.style3
+{
+  background-color: #323232;
+  h6{
+    color: #ffffff;
+  }
+  a{
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    &:hover{
+      background-color: @primary_color;
+      color: #ffffff;
+    }
+  }
+}
+.wolverine-call-action.style4
+{
+  background-color: @primary_color;
+  h6{
+    color: #ffffff;
+  }
+  a{
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    &:hover{
+      background-color: #ffffff;
+      color: @bold_color;
+    }
+  }
+}
+.wolverine-call-action.style5
+{
+  text-align: center;
+  padding: 120px 15px 130px 15px;
+  h2{
+    color: #ffffff;
+    font-family: @secondary_font;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    margin-bottom: 13px;
+  }
+  p{
+    color: #ffffff;
+    font-family: @other_font;
+    font-size: 21px;
+    font-style: italic;
+    padding-bottom: 21px;
+  }
+  a{
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    &:hover{
+      background-color: #ffffff;
+      color: @bold_color;
+    }
+  }
+}
+.wolverine-call-action.style6
+{
+	text-align: center;
+	padding: 160px 15px 130px 15px;
+	h2{
+		color: #ffffff;
+		font-family: @secondary_font;
+		font-size: 36px;
+		font-weight: 400;
+		line-height: 1.2;
+		margin: 0;
+	}
+	p{
+		color: #ffffff;
+		font-family: @other_font;
+		font-size: 18px;
+		font-style: italic;
+		padding-top: 11px;
+	}
+	a{
+		margin-top: 29px;
+		border: 1px solid #555555;
+		background-color: #555555;
+		color: #ffffff;
+		&:hover
+		{
+			background-color: @primary_color;
+			border: 1px solid @primary_color;
+			color: #ffffff;
+		}
+	}
+}
+@media (max-width: 991px) {
+  .wolverine-call-action
+  {
+    .wolverine-call-action-left
+    {
+      text-align: center;
+    }
+    h6{
+      padding: 15px;
+    }
+    .wolverine-call-action-right
+    {
+      text-align: center;
+      a{
+        margin-right: 0;
+      }
+      .content-middle
+      {
+        height: 80px;
+        .content-middle-inner
+        {
+          vertical-align: top;
+        }
+      }
+    }
+  }
+  .wolverine-call-action.style5
+  {
+    h2{
+      font-size: 50px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .wolverine-call-action.style5
+  {
+    h2{
+      font-size: 40px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .wolverine-call-action.style5
+  {
+    h2{
+      font-size: 30px;
+    }
+  }
+}

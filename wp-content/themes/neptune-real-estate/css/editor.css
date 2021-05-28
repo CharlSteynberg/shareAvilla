@@ -1,0 +1,28 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #3a3a3a;
+	font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 15px;
+	line-height: 28px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+}
+h1 {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 30px;
+  line-height: 39px;
+  font-weight: 300;
+}
+p {
+	margin-bottom: 1.5em;
+}

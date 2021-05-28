@@ -1,0 +1,55 @@
+.wolverine-counter
+{
+  text-align: center;
+  span{
+    font-family: @secondary_font;
+    font-size: 60px;
+    font-weight: 400;
+    color: @bold_color;
+    line-height: 1;
+  }
+  p{
+	font-family: @other_font;
+    color: @primary_color;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    padding-top: 25px;
+  }
+}
+.wolverine-counter-wapper
+{
+  padding: 0 15px;
+  .border-left-counter-1
+  {
+    border-left: 1px solid #DCDCDC;
+  }
+  .border-left-right-counter-1
+  {
+    border-left: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+  }
+  .border-left-counter-2
+  {
+    border-left: 1px solid #767676;
+  }
+  .border-left-right-counter-2
+  {
+    border-left: 1px solid #767676;
+    border-right: 1px solid #767676;
+  }
+}
+@media (max-width: 991px) {
+  .wolverine-counter
+  {
+    margin: 15px 0;
+  }
+  .wolverine-counter-wapper
+  {
+    padding: 0;
+    .border-left-counter-1,.border-left-right-counter-1,.border-left-counter-2,.border-left-right-counter-2
+    {
+      border-width: 0;
+    }
+  }
+}

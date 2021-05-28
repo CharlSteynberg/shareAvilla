@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fEstate Theme\n"
+"POT-Creation-Date: 2017-02-16 22:23+0200\n"
+"PO-Revision-Date: 2017-02-16 22:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: CustomizableThemes Team <info@tishonator.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:25
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:30
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+
+#: comments.php:31
+msgid "%1$s Replies to &ldquo;%2$s&rdquo;"
+
+#: comments.php:53 template-parts/content-page.php:35
+#: template-parts/content.php:105
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:28
+msgid "fEstate Theme"
+msgstr ""
+
+#: footer.php:29
+msgid "Powered by %s"
+msgstr ""
+
+#: functions.php:110
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:189
+msgid "Prev"
+msgstr ""
+
+#: functions.php:190
+msgid "Next"
+msgstr ""
+
+#: functions.php:210
+msgid "Dosis font: on or off"
+msgstr ""
+
+#: functions.php:293
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:295
+msgid "The sidebar widget area"
+msgstr ""
+
+#: functions.php:304
+msgid "Footer Content Area"
+msgstr ""
+
+#: functions.php:306
+msgid "The Footer Content widget area"
+msgstr ""
+
+#: inc/customize-pro/class-customize.php:76
+msgid "fEstatePro"
+msgstr ""
+
+#: inc/customize-pro/class-customize.php:77
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: functions.php:26
+msgid "Slider"
+msgstr ""
+
+#: functions.php:42
+msgid "Display Slider"
+msgstr ""
+
+#: functions.php:56
+msgid "Footer"
+msgstr ""
+
+#: functions.php:72
+msgid "Copyright Text"
+msgstr ""
+
+#: functions.php:92
+msgid "Next"
+msgstr ""
+
+#: functions.php:93
+msgid "Previous"
+msgstr ""
+
+#: functions.php:435
+msgid "tEstate"
+msgstr ""
+
+#: functions.php:435
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "You searched for \"%s\". Here are the results:"
+msgstr ""
+
+#: sidebar-footer.php:26
+msgid "Footer Col Widget 1"
+msgstr ""
+
+#: sidebar-footer.php:33
+msgid ""
+"This is footer content widget area. To customize it, please navigate to Admin Panel -> Appearance -> Widgets and add widgets to Footer Widget Area."
+msgstr ""
+
+#: single.php:32
+msgid "Pages:"
+msgstr ""
+
+#: single.php:40
+msgid "Previous Post: %title"
+msgstr ""
+
+#: single.php:41
+msgid "Next Post: %title"
+msgstr ""
+
+#: template-parts/content-none.php:17
+msgid "Oh no! Article not found! 404 error!"
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "No Results Found!"
+msgstr ""
+
+#: template-parts/content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content.php:43
+msgid "Read More &hellip;"
+msgstr ""
+
+#: template-parts/content-page.php:35 template-parts/content.php:105
+msgid "No Comments"
+msgstr ""
+
+#: template-parts/content-page.php:35 template-parts/content.php:105
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/content-page.php:35 template-parts/content.php:105
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/content-page.php:40 template-parts/content.php:110
+msgid "Edit"
+msgstr ""
+
+#: template-parts/content.php:58
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content.php:77
+msgid "Categories:"
+msgstr ""
+
+#: template-parts/content.php:85
+msgid "Tags:"
+msgstr ""

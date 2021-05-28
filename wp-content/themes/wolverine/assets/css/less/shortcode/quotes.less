@@ -1,0 +1,163 @@
+.wolverine-quotes.style1
+{
+  text-align: center;
+  p{
+    margin: 0;
+    font-family: @other_font;
+    font-size: 28px;
+    font-style: italic;
+    line-height: 2.2;
+    color: #FFFFFF;
+  }
+  i{
+    font-size: 70px;
+    color: #EDEEEF;
+    display: inline-block;
+    padding-top: 5px;
+  }
+  img{
+    width: 70px;
+    height: auto;
+  }
+}
+.wolverine-quotes.style1.dark
+{
+	p,i{
+		color: #777777;
+	}
+}
+.wolverine-quotes.style2
+{
+  .quotes-icon
+  {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #EDEEEF;
+    display: block;
+    text-align: center;
+    i{
+      font-size: 100px;
+      line-height: 142px;
+      color: #EDEEEF;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .quotes-item
+  {
+    max-width: 799px;
+    p{
+      margin: 0;
+      font-family: @other_font;
+      font-size: 18px;
+      font-style: italic;
+      line-height: 2.2;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      padding: 0 15px;
+    }
+    span
+    {
+      font-family: @other_font;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 2.2;
+      text-align: right;
+      color: #DDDDDD;
+      display: block;
+      padding: 0 15px;
+      &:before
+      {
+        content: '';
+        display: inline-block;
+        border-bottom: 2px solid #ffffff;
+        width: 50px;
+        margin-right: 10px;
+      }
+      &:after
+      {
+        content: '';
+        display: inline-block;
+        border-bottom: 2px solid #ffffff;
+        width: 50px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .quotes-slider
+  {
+    position: relative;
+  }
+  .custom-owl-prev
+  {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0;
+  }
+  .custom-owl-next
+  {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0;
+  }
+  .custom-owl-prev,.custom-owl-next
+  {
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    line-height: 0;
+    height: 0;
+    i{
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 0;
+      height: 0;
+    }
+  }
+}
+.wolverine-quotes.style2.dark
+{
+  .quotes-icon
+  {
+    border-color: #646464;
+    i{
+      color: #646464;
+    }
+  }
+  .quotes-item
+  {
+    p{
+      color: #777777;
+    }
+    span
+    {
+      color: @primary_color;
+      &:before,&:after
+      {
+        border-color: #989898;
+      }
+    }
+  }
+  .custom-owl-prev i,.custom-owl-next i
+  {
+    color: #646464;
+  }
+}
+@media (max-width: 1199px) {
+  .wolverine-quotes.style2,.wolverine-quotes.style3
+  {
+    text-align: center;
+  }
+  .wolverine-quotes.style2 .quotes-item
+  {
+    max-width: 100%;
+  }
+}

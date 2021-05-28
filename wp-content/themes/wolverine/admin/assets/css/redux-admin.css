@@ -1,0 +1,32 @@
+.redux-container-image_select .redux-image-select {
+	max-width: 100%;
+}
+.redux-field-container .select2-container-multi {
+	display: block;
+	width: 100% !important;
+}
+.redux-container .wp-picker-container {
+	display: inline-block;
+	vertical-align: middle;
+}
+.redux-container .wp-picker-holder {
+	position: absolute;
+}
+
+.dashicons-pricing-table:before {
+	font-family: FontAwesome;
+	content: "\f155";
+}
+.dashicons-cutlery:before {
+	font-family: FontAwesome;
+	content: "\f0f5";
+}
+.dashicons-clock:before {
+	font-family: FontAwesome;
+	content: "\f017";
+}
+.dashicons-gallery:before {
+	font-family: FontAwesome;
+	content: "\f03e";
+}
+

@@ -1,0 +1,29 @@
+.label-text-wrapper {
+	margin: 0;
+	padding: 0;
+}
+.label-text-wrapper:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.label-text-wrapper label {
+	display: block;
+	margin-bottom: 5px;
+}
+.label-text-wrapper input {
+	width: 100%;
+}
+.label-text-wrapper li {
+	display: block;
+}
+@media screen and (min-width: 768px){
+	.label-text-wrapper li {
+		display: block;
+		width: 49%;
+		float: left;
+	}
+	.label-text-wrapper li + li {
+		float: right;
+	}
+}

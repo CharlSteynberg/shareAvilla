@@ -1,0 +1,38 @@
+.wolverine-image-box
+{
+  background-color: #ffffff;
+  padding: 13px 15px;
+  min-height: 177px;
+  .ibox-image
+  {
+    float: left;
+    margin-right: 18px;
+  }
+  h6
+  {
+    font-family: @secondary_font;
+    font-size: 14px;
+    padding-top: 10px;
+    margin-bottom: 12px;
+    a{
+      font-family: inherit;
+      font-size: inherit;
+      color: @bold_color;
+      &:hover
+      {
+        color: @primary_color;
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .wolverine-image-box
+  {
+    text-align: center;
+    .ibox-image
+    {
+      float: none;
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,141 @@
+.countdown .opening-hours{
+  text-align: center;
+  color: #fff;
+  font-size: 54px;
+  position: relative;
+  opacity: 0;
+  .transition-all(all 0.3s);
+}
+.countdown .subscriber{
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+.countdown .subscriber span.input{
+  position: relative;
+}
+.countdown .subscriber input{
+  height: 54px;
+  border-radius: 48px;
+  border: solid 1px #fff;
+  width: 323px;
+  margin-right: 10px;
+  padding-left: 45px;
+  color: #fff;
+  outline: none;
+  background: none repeat scroll 0 0 transparent;
+}
+
+.countdown .subscriber input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.countdown .subscriber input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+.countdown .subscriber input::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff;
+}
+.countdown .subscriber input:-ms-input-placeholder {
+  color: #fff;
+}
+.countdown .subscriber i{
+  position: absolute;
+  color: #fff;
+  left: 20px;
+  top: 2px;
+}
+.circle{
+  text-align: center;
+}
+.circle .canvas{
+  display: inline-block;
+  padding-right: 15px;
+  position: relative;
+  height: 130px;
+}
+.circle .canvas .title{
+  position: absolute;
+  bottom: 20px;
+  left: 2px;
+  font-size: 13px;
+  font-weight: 600;
+  width: 127px;
+  text-transform: none;
+}
+
+
+.countdown.under-construction .time{
+  padding-bottom: 414px;
+}
+.countdown.under-construction .title{
+  padding-top: 200px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+.countdown.under-construction .title,.countdown.under-construction .description {
+  text-transform: uppercase;
+}
+.countdown.under-construction .description{
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+.countdown.under-construction .time .count{
+  display: inline-block;
+  padding-right: 15px;
+  position: relative;
+}
+.countdown.under-construction .time .count .box{
+  height: 80px;
+  width: 80px;
+  background-color: @primary_color;
+  padding-top: 0px;
+  line-height: 1.4;
+  font-size: 55px;
+  font-weight: 600;
+
+}
+.countdown .time .info{
+  font-size: 18px;
+  font-weight: 600;
+  left: 0;
+  position: absolute;
+  top: 90px;
+  width: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .countdown .description{
+    width: 100%;
+  }
+  .countdown.under-construction .title{
+    line-height: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .circle .canvas .title{
+    padding-top: 100px;
+
+  }
+  .countdown .opening-hours{
+    padding-bottom: 0px;
+  }
+  .countdown .opening-hours .canvas {
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .countdown.under-construction .title{
+    font-size: 35px;
+    padding-top: 100px ;
+    line-height: 50px;
+  }
+  .countdown.under-construction .time .count{
+    padding-bottom: 45px;
+  }
+  .countdown.under-construction .time{
+    padding-bottom: 214px;
+  }
+}

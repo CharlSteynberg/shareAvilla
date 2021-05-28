@@ -1,0 +1,78 @@
+.wolverine-event-time
+{
+	.event-time-date-box
+	{
+		width: 100px;
+		height: 100px;
+		float: left;
+		background-color: #ffffff;
+		text-align: center;
+		border: 3px solid @primary_color;
+		span{
+			font-family: @secondary_font;
+			font-size: 40px;
+			font-weight: bold;
+			color: @primary_color;
+			line-height: 1;
+			display: block;
+			padding-top: 17px;
+		}
+		p{
+			font-family: @secondary_font;
+			font-size: 14px;
+			color: @bold_color;
+		}
+	}
+	.event-time-detail
+	{
+		overflow: hidden;
+		padding-left: 20px;
+		h6{
+			font-size: 14px;
+			line-height: 1.2;
+			letter-spacing: 0.05em;
+			color: #ffffff;
+			margin-bottom: 15px;
+		}
+		p{
+			color: #ffffff;
+			font-family: @secondary_font;
+			font-size: 14px;
+			line-height: 2.2;
+			letter-spacing: 0.02em;
+			margin-bottom: 7px;
+			i{
+				margin-right: 10px;
+				font-size: 20px;
+				vertical-align: middle;
+			}
+		}
+	}
+	a{
+		color: #ffffff;
+		font-family: @secondary_font;
+		font-size: 13px;
+		line-height: 2.2;
+		display: block;
+		padding-top: 13px;
+		&:hover
+		{
+			color: @primary_color;
+		}
+	}
+}
+.wolverine-event-time.dark
+{
+	.event-time-detail
+	{
+		h6{
+			color: @bold_color;
+		}
+		p{
+			color: @text_color;
+		}
+	}
+	a{
+		color: @text_color;
+	}
+}

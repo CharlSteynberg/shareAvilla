@@ -1,0 +1,140 @@
+#adminmenu #menu-posts-ourteam .menu-icon-post div.wp-menu-image:before {
+    content: "\f0c0";
+    font-family: FontAwesome;
+}
+
+#adminmenu #menu-posts-testimonial .menu-icon-post div.wp-menu-image:before {
+    content: "\f10d";
+    font-family: FontAwesome;
+}
+
+#adminmenu #menu-posts-services .menu-icon-post div.wp-menu-image:before {
+    content: "\f022";
+    font-family: FontAwesome;
+}
+.wpb_wolverine_slider_container .wpb_content_element,.wpb_wolverine_testimonial_ctn .wpb_content_element,.wpb_wolverine_quotes_ctn .wpb_content_element,.wpb_wolverine_cover_box_ctn .wpb_content_element,.wpb_wolverine_our_commitment_ctn .wpb_content_element
+{
+    min-width: 250px;
+    display: inline-block;
+}
+.vc_element-icon.fa
+{
+    background-image: none;
+    color: #9A5A56;
+    font-size: 30px;
+}
+.fip-vc-theme-grey.vc-icons-selector .fip-icons-container .fip-box
+{
+    font-size: 30px !important;
+}
+.fip-vc-theme-grey.vc-icons-selector .fip-icons-container .fip-box .icon,.fip-vc-theme-grey.vc-icons-selector .selected-icon .icon
+{
+    display: inline-block;
+    line-height: 1;
+    margin-left: 0;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.wpb_vc_message .vc_message_box-icon > * {
+    transform: translate(-50%, -50%) !important;
+}
+.wpb_vc_message .vc_color-info.vc_message_box-outline, .wpb_vc_message .vc_color-info.vc_message_box-solid-icon
+{
+    color: #995958 !important;
+    border-color: #995958 !important;
+}
+.wpb_vc_message .vc_color-info.vc_message_box *
+{
+    color: #995958 !important;
+}
+.wpb_vc_message .vc_color-info.vc_message_box .vc_message_box-icon{
+    color: #995958 !important;
+}
+.wpb_vc_message .vc_color-danger.vc_message_box
+{
+    color: #ffffff !important;
+    border-color: #995958 !important;
+    background-color: #995958 !important;
+}
+.wpb_vc_message .vc_color-danger.vc_message_box *
+{
+    color: #ffffff !important;
+}
+.wpb_vc_message .vc_color-danger.vc_message_box .vc_message_box-icon
+{
+    color: #ffffff !important;
+}
+.wpb_vc_message .vc_color-warning.vc_message_box {
+    color: #995958 !important;
+    border-color: #DDDDDD !important;
+    background-color: #EEEEEE !important;
+}
+.wpb_vc_message .vc_color-warning.vc_message_box *{
+    color: #995958 !important;
+}
+.wpb_vc_message.vc_message_box .vc_message_box-icon
+{
+    color: #995958 !important;
+}
+.wpb_vc_message .vc_color-success.vc_message_box {
+    color: #555555 !important;
+    border-color: #DDDDDD !important;
+    background-color: #EEEEEE !important;
+}
+.wpb_vc_message .vc_color-success.vc_message_box *{
+    color: #555555 !important;
+}
+.wpb_vc_message .vc_color-success.vc_message_box .vc_message_box-icon
+{
+    color: #555555 !important;
+}
+.wpb_vc_message .vc_message_box
+{
+    font-size: 13px !important;
+    padding: 4px 15px 4px 47px !important;
+}
+.wpb_vc_message .vc_message_box h1,.wpb_vc_message .vc_message_box h2,.wpb_vc_message .vc_message_box h3,.wpb_vc_message .vc_message_box h4,.wpb_vc_message .vc_message_box h5,.wpb_vc_message .vc_message_box h6{
+    margin-bottom: 8px !important;
+}
+.wpb_vc_message .vc_message_box-icon
+{
+    font-size: 10px !important;
+}
+.wpb_vc_message .vc_message_box.icon_small
+{
+    padding: 4px 15px 4px 47px !important;
+}
+.wpb_vc_message .vc_message_box.icon_small .vc_message_box-icon
+{
+    font-size: 10px !important;
+    width: 49px !important;
+}
+.wpb_vc_message .vc_message_box.icon_large
+{
+    padding: 15px 15px 15px 105px !important;
+
+}
+.wpb_vc_message .vc_message_box.icon_large .vc_message_box-icon
+{
+    font-size: 22px !important;
+    width: 109px !important;
+}
+.vc_message-type.vc_colored-dropdown .danger {
+    background-color: #995958 !important;
+    color: #FFFFFF !important;
+}
+.vc_message-type.vc_colored-dropdown .success {
+    background-color: #eeeeee !important;
+    color: #535353 !important;
+}
+.vc_message-type.vc_colored-dropdown .info {
+    background-color: #eeeeee !important;
+    color: #535353 !important;
+}
+.vc_message-type.vc_colored-dropdown .warning {
+    background-color: #EEEEEE !important;
+    color: #995958 !important;
+}
