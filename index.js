@@ -1,1 +1,1 @@
-alert("testing 1,2");
+dump("testing 1,2");
