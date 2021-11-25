@@ -1,1 +1,5 @@
-dump("testing 1,2");
+GT.select("*").then((rsp)=>
+{
+    rsp = decode.jso(rsp.body);
+    dump(rsp);
+});
